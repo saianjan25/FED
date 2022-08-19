@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>color box</title>
+    <style>
+        .he{
+            background-color: aquamarine;
+            font-weight: bold;
+            position: absolute;
+            margin: 10px;
+            height: 30px;
+            width: 75%; 
+            z-index: 1;  
+            left: 0px;
+            top: 0px;
+        }
+        .c1{
+            background-color: rgb(245, 180, 39);
+            position: absolute;
+            height: 25px;
+            width: 50%; 
+            z-index: 2;
+            left: 500px;
+            top: 7px;
+            font-weight: bold;
+        }
+        .c{
+            background-color: pink;
+            position: absolute;
+            height: 150px;
+            width: 75%; 
+            z-index: 1;
+            left: 30px;
+            top: 40px;
+            font-weight: bold;
+        }
+        .c2{
+            background-color: rgb(245, 180, 39);
+            position: absolute;
+            z-index: 2;
+            left: 100px;
+            top: 20px;
+            height: 50px;
+            width: 75%; 
+            font-weight: bold;
+        }
+        .c3{
+            background-color: rgb(245, 180, 39);
+            position: absolute;
+            z-index: 2;
+            left: 70px;
+            top: 110px;
+            height: max-content;
+            width: 75%; 
+            font-weight: bold;
+        }
+        .fo{
+            background-color: aquamarine;
+            font-weight: bold;
+            position: absolute;
+            margin: 10px;
+            height: 30px;
+            width: 75%; 
+            z-index: 1;  
+            left: 0px;
+            top: 180px;
+        }
+    </style>
+</head>
+<body>
+    <div class="he">
+        Header
+    </div>
+    <div class="c1">
+        Content 1
+    </div>
+    <div class="c">
+        Content
+        <div class="c2">
+            Content 2
+        </div>
+        <div class="c3">
+            Content 3
+        </div>
+    </div>
+    <div class="fo">
+        Footer
+    </div>
+</body>
+</html>
